@@ -1,0 +1,116 @@
+*{
+    padding: 1;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.html{
+    color: darkseagreen;
+}
+body{
+    padding: 4rem 5rem;
+    background-color: gainsboro;
+}
+h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-bottom: 2.5px solid grey;
+    padding: 0rem;
+    margin-bottom: 1rem;
+}
+h3{
+    font-size: 0.8rem;
+}
+p{
+    line-height: 1.5;
+    text-align: justify;
+}
+.name p{
+    text-align: center;
+}
+section{
+    margin-top: 1rem;
+}
+ul{
+    display: grid;
+    color: brown;
+    padding: 1.2rem;
+    border: 2px solid plum;
+}
+.name img{
+    border-radius: 9999px;
+    width: 10rem;
+    height: 10rem;
+}
+.name{
+    text-align: center;
+}
+.name h1{
+    color: grey;
+    background: ivory;
+    padding: 0rem;
+}
+.name p{
+    color: blueviolet;
+    margin-top: 0rem;
+    font-size: 1.0rem;
+    padding: 0rem;
+}
+.profile{
+    color: grey;
+    padding: 1rem;
+}
+.profile p{
+    color: brown;
+    padding: 0rem;
+    border: 2px solid plum;
+}
+.details{
+    color: grey;
+    padding: 1rem;
+}
+.language{
+    color: grey;
+    padding: 1rem;
+}
+.interest{
+    color: grey;
+    padding: 1rem;
+}
+.social{
+    color: brown;
+    padding: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.education{
+    color: grey;
+    padding: 1rem;
+}
+.skills{
+    color: grey;
+    padding: 1rem;
+}
+.activities{
+    color: grey;
+    padding: 1rem;
+}
+.project{
+    color: grey;
+    padding: 1rem;
+}
+.years{
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+.content{
+    border-left: 2px solid green;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 2rem;
+    background-color: beige;
+}
